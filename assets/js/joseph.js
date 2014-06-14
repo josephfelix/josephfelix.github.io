@@ -9,6 +9,7 @@ var JosephPortfolio =
 {
 	irPara: function( pag )
 	{
+		pag = /^\#/.test(pag) ? pag.replace(/^\#/,'') : pag;
 		var element = $("#".concat(pag));
 		if ( element.length )
 		{
@@ -51,3 +52,14 @@ var JosephPortfolio =
 		}
 	}
 };
+
+$(document).ready(function()
+{
+	if ( window.location.hash != '' )
+	{
+		setTimeout(function()
+		{
+			JosephPortfolio.irPara( window.location.hash );
+		}, 400);
+	}
+});

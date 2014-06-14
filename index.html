@@ -17,7 +17,8 @@
 		<link rel="stylesheet" href="assets/css/joseph.css" type="text/css" />
 		
 		<!-- Scripts -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
+		<script type="text/javascript" src="assets/js/jquery-2.1.1.min.js"></script>
 		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="assets/js/joseph.js"></script>
 	
@@ -29,7 +30,7 @@
 					<div class="container">
 						<!-- inicio navbar-header -->
 						<div class="navbar-header">
-							<a href="#home" class="navbar-brand">
+							<a href="http://josephfelix.github.io" class="navbar-brand">
 								<img src="assets/img/logo.png" alt="Joseph F. Portf&oacute;lio" />
 							</a>
 							<!-- botão para exibir o menu pelo celular -->
@@ -92,21 +93,21 @@
 				</nav>
 			</section>
 			
-			<section class="conteudo">
+			<section class="conteudo container">
 			
 				<!-- Inicio -->
 				<div id="inicio" class="slider slider1">
 					<div class="container-portfolio">
-						<div class="col-lg-5 hidden-xs">
+						<div class="col-lg-4 hidden-xs text-center">
 							<i class="fa fa-code font-30em white"></i>
 						</div>
-						<div class="col-lg-7">
+						<div class="col-lg-8">
 							<h2 class="texto-inicio fine_collegeregular" align="center">Seja bem vindo!</h2>
 							<h3 align="center" class="white texto-sub-inicio">Seja bem vindo, este &eacute; o meu portf&oacute;lio!<br />
 								Aqui irei apresentar trabalhos e projetos<br /> que desenvolvi ou tive partipa&ccedil;&atilde;o!
 							</h3>
 							<h3 align="center" class="white texto-sub-inicio">
-								Para ver meu portf&oacute;lio clique no bot&atilde;o abaixo.
+								Para iniciar, clique no bot&atilde;o abaixo.
 							</h3>
 							<br />
 							<div align="center">
@@ -121,15 +122,15 @@
 				<!-- Sobre -->
 				<div id="sobre" class="slider slider2 hide">
 					<div class="container-portfolio">
-						<div class="col-lg-5 hidden-xs">
-							<i class="fa fa-code font-30em white"></i>
+						<div class="col-lg-4 hidden-xs text-center">
+							<i class="fa fa-code font-21em white"></i>
 							<br />
 							<div align="center">
-								<button class="btn btn-large btn-iniciar" type="button" onclick="JosephPortfolio.irPara('formacao')">PR&Oacute;XIMO&nbsp;<i class="fa fa-chevron-right"></i></button>
+								<button class="btn btn-large btn-proximo" type="button" onclick="JosephPortfolio.irPara('formacao')">PR&Oacute;XIMO&nbsp;<i class="fa fa-chevron-right"></i></button>
 							</div>
 						</div>
-						<div class="col-lg-7">
-							<fieldset class="box-portfolio">
+						<div class="col-lg-8">
+							<fieldset class="box-portfolio box-portfolio-inicio">
 								<h2 align="center" class="nomargin">Quem sou eu?</h2>
 								<hr class="colorgraph" />
 								<div class="col-lg-3 text-center">
@@ -148,17 +149,14 @@
 									Nome: <strong>Joseph Felix</strong><br />
 									Idade: <strong>20 anos</strong><br />
 									Cidade: <strong>Rio de Janeiro, RJ - Brasil</strong><br />
-									Programa desde: <strong>2008</strong><br />
-									Gosto musical: <strong>Beatles e Led Zeppelin</strong><br />
-									Outros interesses: <strong>Matemática, física, jogos e especialmente programação</strong><br />
+									Estuda programação desde: <strong>2008</strong><br />
+									Gosto musical: <strong>Classic Rock(Beatles & Led Zeppelin) e Indie</strong><br />
+									Outros interesses: <strong>Matemática, astronomia, religião, jogos e especialmente programação.</strong><br />
 									Meus próximos objetivos são: <strong>ter um cargo alto em uma empresa conhecida, trabalhar com algo que eu gosto e ter uma boa ideia para desenvolver algo que faça sucesso.</strong><br />
 									Trabalhou anteriormente na empresa: <a href="http://www.lfsolutions.com.br/" rel="nofollow" target="_blank"><strong>LFSolutions</strong></a><br />
 									Cargo: <strong>WebDeveloper / WebDesigner</strong><br />
-									Linguagens de programação com experiência: <strong>PHP, JavaScript (jQuery) e Object Pascal(Delphi)</strong><br />
-									Linguagens de marcação com experiência: <strong>HTML, CSS, XML, etc...</strong><br /> 
-									Linguagens de programação que sou capaz de desenvolver: <strong>C/C++, C#, Python, Perl, Java e Assembly</strong><br />
-									Framework preferido: <strong>CodeIgniter</strong><br />
-									Outras plataformas: <strong>Mobile (Xamarin Studio), Desktop(Delphi e C/C++)</strong><br />
+									Alguns conhecimentos: <strong>HTML, HTML5, xHTML, CSS, CSS3, XUL, XML, JSON, PHP, JavaScript, MySQL, htaccess/webconfig, cURL, WordPress, Joomla, PrestaShop, Linux, GD, oAuth, Facebook/Twitter/Google+ API, Lomadee, PenTesting, XSS/CSRF/DLL Injection/LFI/RFI/SQL Injection/Brute Force/MD5 and SHA1 cracking, REST API, OOP, Chrome/Firefox Extension Dev, jQuery, jQuery Mobile, MooTools, Bootstrap Frontend Framework, C/C++, SDL, OpenCV, Pascal, Delphi, C++ Builder, Python, Java Mobile, Assembly, CodeIgniter Framework, GitHub, MVC Standard, Xamarin Studio, GCC, Shell Script, Win32API, ...</strong><br />
+									Sistema de versionamento principal: <strong>Git</strong><br />
 									Linguagens na qual pretende trabalhar: <strong>PHP e JavaScript</strong>
 								</div>
 								<div class="clear-fix"></div>
@@ -173,47 +171,67 @@
 				<!-- Formação -->
 				<div id="formacao" class="slider slider3 hide">
 					<div class="container-portfolio">
-						<div class="col-lg-5 hidden-xs">
-							<i class="fa fa-code font-30em white"></i>
+						<div class="col-lg-4 hidden-xs text-center">
+							<i class="fa fa-code font-21em white"></i>
 							<br />
 							<div align="center">
-								<button class="btn btn-large btn-iniciar" type="button" onclick="JosephPortfolio.irPara('trabalhos')">PR&Oacute;XIMO&nbsp;<i class="fa fa-chevron-right"></i></button>
+								<button class="btn btn-large btn-proximo" type="button" onclick="JosephPortfolio.irPara('trabalhos')">PR&Oacute;XIMO&nbsp;<i class="fa fa-chevron-right"></i></button>
 							</div>
 						</div>
-						<div class="col-lg-7">
-							<fieldset class="box-portfolio">
+						<div class="col-lg-8">
+							<fieldset class="box-portfolio box-portfolio-inicio">
 								<h2 align="center" class="nomargin">Forma&ccedil;&atilde;o profissional</h2>
 								<hr class="colorgraph" />
 								
-									<div class="col-lg-3">
+									<div class="col-lg-4">
 										<img src="assets/img/uerj.png" class="img-thumbnail" />
 									</div>
-									<div class="col-lg-9">
-										Atualmente eu estudo Ciência da Computação na Universidade do Estado do Rio de Janeiro (UERJ), estou no 2° semestre.<br />
-										Conhecimentos j&aacute; adquiridos: Python e C<br />
+									<div class="col-lg-8">
+										Ensino: <strong>Superior</strong><br />
+										Curso: <strong>Ciência da Computação</strong><br />
+										Instituição: <strong>Universidade do Estado do Rio de Janeiro (UERJ)</strong><br />
+										Situação: <strong>Cursando 2° semestre</strong><br />
+										Conhecimentos j&aacute; adquiridos: <strong>Python e C</strong><br />
 										Per&iacute;odo: <strong>2013</strong> ~ <strong>atualmente</strong>
 									</div>
 									<div class="clear-fix"></div><br />
 									
-									<div class="col-lg-3">
+									<div class="col-lg-4">
 										<img src="assets/img/senai.jpg" class="img-thumbnail" />
 									</div>
-									<div class="col-lg-9">
-										Já cursei ensino técnico em programação de jogos no SENAI<br />
-										Aprendizados: Modelagem 3D Maya, Unity, C# e Java<br />
+									<div class="col-lg-8">
+										Ensino: <strong>Técnico</strong><br />
+										Curso: <strong>Técnico em programação de jogos digitais</strong><br />
+										Instituição: <strong>SENAI Artes Gráficas</strong><br />
+										Aprendizados: <strong>Modelagem 3D Maya, Unity, C# e Java</strong><br />
 										Per&iacute;odo: <strong>2012</strong> ~ <strong>2013</strong>
 									</div>
 									<div class="clear-fix"></div><br />
 								
-									<div class="col-lg-3">
+									<div class="col-lg-4">
 										<a href="assets/img/certificado_faetec.jpg" target="_blank">
 											<img src="assets/img/certificado_faetec.jpg" class="img-thumbnail" />
 										</a>
 									</div>
-									<div class="col-lg-9">
-										Me certifiquei em desenvolvimento web pela FAETEC<br />
-										Aprendizados: HTML, CSS e JavaScript<br />
+									<div class="col-lg-8">
+										Ensino: <strong>Técnico</strong><br />
+										Curso: <strong>Programação WEB & Criação de HOME PAGE</strong><br />
+										Instituição: <strong>FAETEC RJ</strong><br />
+										Aprendizados: <strong>HTML, CSS e JavaScript</strong><br />
 										Per&iacute;odo: <strong>06/2011</strong> ~ <strong>10/2011</strong>
+									</div>
+									
+									<div class="clear-fix"></div><br />
+									
+									<div class="col-lg-4">
+										<a href="#" target="_blank">
+											<img src="assets/img/compositor.jpg" class="img-thumbnail" />
+										</a>
+									</div>
+									<div class="col-lg-8">
+										Ensino: <strong>Médio</strong><br />
+										Instituição: <strong>C.E Compositor Luiz Carlos da Vila</strong><br />
+										Per&iacute;odo: <strong>2010</strong> ~ <strong>2013</strong>
 									</div>
 								
 										
@@ -229,18 +247,217 @@
 				<!-- trabalhos -->
 				<div id="trabalhos" class="slider slider4 hide">
 					<div class="container-portfolio">
-						<div class="col-lg-5 hidden-xs">
-							<i class="fa fa-code font-30em white"></i>
+						<div class="col-lg-4 hidden-xs text-center">
+							<i class="fa fa-code font-21em white"></i>
 							<br />
 							<div align="center">
-								<button class="btn btn-large btn-iniciar" type="button" onclick="JosephPortfolio.irPara('midia')">PR&Oacute;XIMO&nbsp;<i class="fa fa-chevron-right"></i></button>
+								<button class="btn btn-large btn-proximo" type="button" onclick="JosephPortfolio.irPara('midia')">PR&Oacute;XIMO&nbsp;<i class="fa fa-chevron-right"></i></button>
 							</div>
 						</div>
-						<div class="col-lg-7">
-							<fieldset class="box-portfolio">
-								<h2 align="center" class="nomargin">Trabalhos</h2>
+						<div class="col-lg-8">
+							<fieldset class="box-portfolio box-portfolio-inicio">
+								<h2 align="center" class="nomargin">Principais trabalhos</h2>
 								<hr class="colorgraph" />
-									<p>Lorem ipsum</p>
+									<p align="center">Escolha um e clique para ver mais imagens!</p>
+									<div class="col-lg-4">
+										<a href="trabalhos/radar77.html" target="_blank">
+											<img src="assets/img/trabalhos/radar77/1.png" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									<div class="col-lg-4">
+										<a href="trabalhos/magicodasofertas.html" target="_blank">
+											<img src="assets/img/trabalhos/magicodasofertas/1.png" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									<div class="col-lg-4">
+										<a href="trabalhos/superfollow.html" target="_blank">
+											<img src="assets/img/trabalhos/superfollow/1.png" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									<div class="clear-fix"></div><br />
+									
+									
+									<div class="col-lg-4">
+										<a href="trabalhos/infollow.html" target="_blank">
+											<img src="assets/img/trabalhos/infollow/1.jpg" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									
+									<div class="col-lg-4">
+										<a href="trabalhos/gag.html" target="_blank">
+											<img src="assets/img/trabalhos/gag/1.jpg" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									
+									<div class="col-lg-4">
+										<a href="trabalhos/unfollowtw.html" target="_blank">
+											<img src="assets/img/trabalhos/unfollowtw/1.png" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									<div class="clear-fix"></div><br />
+									
+									<div class="col-lg-4">
+										<a href="trabalhos/jmbmorais.html" target="_blank">
+											<img src="assets/img/trabalhos/jmb/2.jpg" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									
+									<div class="col-lg-4">
+										<a href="trabalhos/exploith.html" target="_blank">
+											<img src="assets/img/trabalhos/exploith/1.png" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									
+									<div class="col-lg-4">
+										<a href="trabalhos/rsa.html" target="_blank">
+											<img src="assets/img/trabalhos/rsa/1.png" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									<div class="clear-fix"></div><br />
+									
+									<div class="col-lg-4">
+										<a href="trabalhos/greatcases.html" target="_blank">
+											<img src="assets/img/trabalhos/greatcases/2.png" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									
+									<div class="col-lg-4">
+										<a href="trabalhos/centeg.html" target="_blank">
+											<img src="assets/img/trabalhos/centeg/1.jpg" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									
+									<div class="col-lg-4">
+										<a href="trabalhos/welovefashion.html" target="_blank">
+											<img src="assets/img/trabalhos/welovefashion/2.png" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									<div class="clear-fix"></div><br />
+									
+									<div class="col-lg-4">
+										<a href="trabalhos/canalforro.html" target="_blank">
+											<img src="assets/img/trabalhos/canalforro/1.png" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									
+									<div class="col-lg-4">
+										<a href="trabalhos/twitimg.html" target="_blank">
+											<img src="assets/img/trabalhos/twitimg/1.jpg" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									
+									<div class="col-lg-4">
+										<a href="trabalhos/faceblocked.html" target="_blank">
+											<img src="assets/img/trabalhos/faceblocked/1.png" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									<div class="clear-fix"></div><br />
+									
+									<h2 align="center">Outros trabalhos (feito por hobby)</h2>
+									
+									<div class="col-lg-4">
+										<a href="trabalhos/migremeaddon.html" target="_blank">
+											<img src="assets/img/trabalhos/migremeaddon/1.png" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									
+									<div class="col-lg-4">
+										<a href="trabalhos/detonapremium.html" target="_blank">
+											<img src="assets/img/trabalhos/detonapremium/3.jpg" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									
+									<div class="col-lg-4">
+										<a href="trabalhos/emoticon_backup.html" target="_blank">
+											<img src="assets/img/trabalhos/emoticon_backup/1.png" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									<div class="clear-fix"></div><br />
+									
+									<div class="col-lg-4">
+										<a href="trabalhos/getopicsaddon.html" target="_blank">
+											<img src="assets/img/trabalhos/getopicsaddon/2.png" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									<div class="col-lg-4">
+										<a href="trabalhos/upimg.html" target="_blank">
+											<img src="assets/img/trabalhos/upimg/1.png" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									
+									<div class="col-lg-4">
+										<a href="trabalhos/lixeira.html" target="_blank">
+											<img src="assets/img/trabalhos/lixeira/1.jpg" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									
+									<div class="clear-fix"></div><br />
+									
+									
+									<div class="col-lg-4">
+										<a href="trabalhos/youtubedown.html" target="_blank">
+											<img src="assets/img/trabalhos/youtubedown/1.png" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									<div class="col-lg-4">
+										<a href="trabalhos/facebookolder.html" target="_blank">
+											<img src="assets/img/trabalhos/facebookolder/1.png" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									
+									<div class="col-lg-4">
+										<a href="trabalhos/msn_bot.html" target="_blank">
+											<img src="assets/img/trabalhos/msn_bot/1.jpg" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									<div class="clear-fix"></div><br />
+									
+									<h2 align="center">Desenvolvimento de jogos clássicos em SDL</h2>
+									
+									<div class="col-lg-4">
+										<a href="#" target="_blank">
+											<img src="assets/img/trabalhos/jogos/space_invaders.jpg" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									<div class="col-lg-4">
+										<a href="#" target="_blank">
+											<img src="assets/img/trabalhos/jogos/arkanoid.jpg" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									
+									<div class="col-lg-4">
+										<a href="#" target="_blank">
+											<img src="assets/img/trabalhos/jogos/carway.jpg" class="img-thumbnail" />
+										</a>
+									</div>
+									
+									<div class="clear-fix"></div>
 								<hr class="colorgraph" />
 							</fieldset>
 						</div>
@@ -251,15 +468,15 @@
 				<!-- Midia -->
 				<div id="midia" class="slider slider5 hide">
 					<div class="container-portfolio">
-						<div class="col-lg-5 hidden-xs">
-							<i class="fa fa-code font-30em white"></i>
+						<div class="col-lg-4 hidden-xs text-center">
+							<i class="fa fa-code font-21em white"></i>
 							<br />
 							<div align="center">
-								<button class="btn btn-large btn-iniciar" type="button" onclick="JosephPortfolio.irPara('contato')">PR&Oacute;XIMO&nbsp;<i class="fa fa-chevron-right"></i></button>
+								<button class="btn btn-large btn-proximo" type="button" onclick="JosephPortfolio.irPara('contato')">PR&Oacute;XIMO&nbsp;<i class="fa fa-chevron-right"></i></button>
 							</div>
 						</div>
-						<div class="col-lg-7">
-							<fieldset class="box-portfolio">
+						<div class="col-lg-8">
+							<fieldset class="box-portfolio box-portfolio-inicio">
 								<h2 align="center" class="nomargin">M&iacute;dia</h2>
 								<hr class="colorgraph" />
 									<p>Lorem ipsum</p>
@@ -274,32 +491,22 @@
 				<!-- Contato -->
 				<div id="contato" class="slider slider6 hide">
 					<div class="container-portfolio">
-						<div class="col-lg-5 hidden-xs">
-							<i class="fa fa-code font-30em white"></i>
+						<div class="col-lg-4 hidden-xs text-center">
+							<i class="fa fa-code font-21em white"></i>
 							<br />
 							<div align="center">
-								<button class="btn btn-large btn-iniciar" type="button" onclick="JosephPortfolio.irPara('inicio')"><i class="fa fa-chevron-left"></i>&nbsp;IN&Iacute;CIO</button>
+								<button class="btn btn-large btn-proximo" type="button" onclick="JosephPortfolio.irPara('inicio')"><i class="fa fa-chevron-left"></i>&nbsp;IN&Iacute;CIO</button>
 							</div>
 						</div>
-						<div class="col-lg-7">
-							<fieldset class="box-portfolio">
+						<div class="col-lg-8">
+							<fieldset class="box-portfolio box-portfolio-inicio">
 								<h2 align="center" class="nomargin">Contato</h2>
 								<hr class="colorgraph" />
 									<form method="post" class="form-horizontal" role="form" action="mailto:joseph0xfff@gmail.com" enctype="text/plain">
-										
-										
-										<div class="form-group">
-											<label for="nome" class="col-sm-2 control-label">Seu nome</label>
-											<div class="col-sm-10">
-												<input id="nome" name="subject" type="text" placeholder="Digite seu nome aqui" class="input-xlarge" required="" />
-											</div>
-										</div>
-
-
 										<div class="form-group">
 											<label class="col-sm-2 control-label" for="email">Seu e-mail</label>
 											<div class="col-sm-10">
-												<input id="email" name="email" type="text" placeholder="Digite seu e-mail aqui" class="input-xlarge" required="" />							
+												<input id="email" name="email" type="email" placeholder="Digite seu e-mail aqui" class="input-xlarge" required="" />							
 											</div>
 										</div>
 
