@@ -455,11 +455,20 @@ fieldset.box-portfolio-inicio
 
 fieldset.box-portfolio
 {
-	background: #fff;
+	/*background: #fff;
 	padding: 10px;
 	border-bottom: 1px solid #DEDEDE;
 	box-shadow: 0 1px 4px #000000;
 	color: #2D3033;
+	text-shadow: none;
+	transition: background-color 0.25s ease 0s;*/
+	
+	background: rgba(0, 0, 0, 0.24);
+	padding: 10px;
+	border-bottom: 1px solid #DEDEDE;
+	box-shadow: 0 1px 4px #000000;
+	color: #2D3033;
+	color: #fff;
 	text-shadow: none;
 	transition: background-color 0.25s ease 0s;
 }
