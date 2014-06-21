@@ -5,8 +5,56 @@
 * ---------------------------------------
 */
 
+window.current_work = '';
 var JosephPortfolio = 
 {
+	start: function()
+	{
+		if ( $(".colorbox").length )
+		{
+			$(".colorbox.youtube").colorbox(
+			{
+				iframe: true,
+				innerWidth: 640, 
+				innerHeight: 390
+			});
+			$(".colorbox").colorbox(
+			{
+				rel: 'Trabalhos', 
+				transition: 'fade', 
+				width: '80%',
+				previous: '<i class="fa fa-chevron-left"></i>',
+				next: '<i class="fa fa-chevron-right"></i>',
+				close: '',
+				closeButton: false,
+				current: "",
+				onOpen: function( img )
+				{
+					window.current_work = '';
+				},
+				onLoad: function( img )
+				{
+					var work = ' ';
+					if ( $(img.el).attr('href').length > 0 )
+					{
+						var tmp = $(img.el).attr('href').split('/');
+						tmp.pop();
+						work = tmp.pop();
+					}
+					
+					if ( work != 'embed' ) //YouTube
+					{
+						if ( window.current_work != work && window.current_work != '' )
+						{
+							$.colorbox.close();
+						}
+						
+						window.current_work = work;
+					}
+				}
+			});
+		}
+	},
 	irPara: function( pag )
 	{
 		pag = /^\#/.test(pag) ? pag.replace(/^\#/,'') : pag;
@@ -55,6 +103,7 @@ var JosephPortfolio =
 
 $(document).ready(function()
 {
+	JosephPortfolio.start();
 	if ( window.location.hash != '' )
 	{
 		setTimeout(function()
