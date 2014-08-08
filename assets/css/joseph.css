@@ -524,6 +524,11 @@ fieldset.box-portfolio legend
 	{
 		position: static !important;
 	}
+	.btn-iniciar
+	{
+		width: 30% !important;
+		float: left;
+	}
 	section.conteudo .texto-sub-inicio
 	{
 		text-align: left !important;
