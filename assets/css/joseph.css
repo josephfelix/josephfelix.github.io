@@ -383,7 +383,7 @@ section.conteudo .slider
 section.conteudo .slider h2.texto-inicio
 {
 	color: #fff;
-	font-size: 3em;
+	font-size: 6em;
 	margin-bottom: 0;
 	padding-bottom: 0;
 	-moz-text-shadow: 2px 2px 0 rgba(0,0,0,.3);
@@ -532,7 +532,7 @@ fieldset.box-portfolio legend
 	}
 	section.conteudo .texto-inicio
 	{
-		font-size: 5em !important;
+		font-size: 3em !important;
 		text-align: left !important;
 	}
 	ul.social-container 
