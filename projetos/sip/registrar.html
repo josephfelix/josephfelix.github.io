@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>SIP - Sistema integrado de perguntas</title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+	<div class="header">
+    	<div class="container">
+        	<div class="row branding">
+            	<div class="span12">
+					<a href="index.html"><img src="img/logo.png" /></a>
+                </div>           	
+            </div>
+            <div class="row navigation">
+	           	<div class="span12">
+                    <ul class="nav nav-tabs">
+                      <li class="active"><a href="registrar.html">Registrar</a></li>
+                      <li><a href="#">Como funciona</a></li>
+                      <li><a href="#">Termos de uso</a></li>
+                      <li><a href="#">Sobre</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>        
+    </div>
+	<div class="container content">
+		<div class="well">
+			<div class="form_cadastro">
+            	<form method="POST">
+					<h3 align="center">Registre-se no SIP</h3>
+					<label>Nome completo</label>
+					<input type="text" class="login-input" placeholder="Nome completo" />
+					<label>E-mail</label>
+					<input type="text" class="login-input" placeholder="Seu e-mail" />
+					<label>Senha</label>
+					<input type="password" class="login-input" placeholder="Sua senha" />
+					<label>Repita sua senha</label>
+					<input type="password" class="login-input" placeholder="Sua senha" />
+					<label>Pa&iacute;s</label>
+					<select name="pais" class="login-select">
+						<option value="BR" selected>Brasil</option>
+					</select>
+					<label>Estado</label>
+					<select name="estado" class="login-select">
+						<option value="Rio de Janeiro" selected>Rio de Janeiro</option>
+					</select>
+					
+					<fieldset>
+						<legend>Dados acad&ecirc;micos</legend>
+						<label>Universidade</label>
+						<input type="text" name="universidade" class="login-input" placeholder="Nome da universidade" />
+						<label>Sua matr&iacute;cula na universidade</label>
+						<input type="text" name="matricula" class="login-input" placeholder="Sua matricula" />
+					</fieldset>
+					<br />
+					<button class="btn btn-large btn-success btn-block">&nbsp;&nbsp; <i class="icon-plus icon-white"></i>&nbsp;Cadastrar &nbsp;&nbsp;</button>
+					<br />
+					<a href="index.html" class="btn btn-large btn-info btn-block">
+							&nbsp;&nbsp; Voltar &nbsp;&nbsp;
+					</a>
+                </form>               
+			</div>
+        </div>
+        <div class="footer">
+        	<div class="row">
+            	<div class="span12">
+                	<p class="pull-left">&copy; 2014 - SIP, todos direitos reservados.</p>
+                    <p class="pull-right"><a href="#">Termos de uso</a> &nbsp;|&nbsp; <a href="#">Sobre</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap-tab.js"></script>
+</html>
