@@ -695,10 +695,14 @@
 						lat: -22.8654824,
 						lng: -43.2773972,
 						icon: 'assets/img/marker/pm.png',
-						infoWindow: infoWindow
+						infoWindow: infoWindow,
+						click: function()
+						{
+							infoWindow.open(map_marker, marker);
+						}
 					});
 					map_marker.addMarker(marker);
-					infoWindow.open(map_marker, marker);
+					//infoWindow.open(map_marker, marker);
 				});				
 				
 				map_marker.addMarker({
