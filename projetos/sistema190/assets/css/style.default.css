@@ -4874,3 +4874,7 @@ select.form-control {
   margin-right: 0;
   padding-right: 0;	
 }
+
+#map-canvas {
+	width: 100% !important;
+}
