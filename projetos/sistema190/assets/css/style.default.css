@@ -4882,3 +4882,6 @@ select.form-control {
 .overflow-hidden {
 	overflow: hidden;
 }
+.fs20 {
+	font-size: 20px;
+}
