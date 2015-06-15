@@ -1032,6 +1032,14 @@ h4, .h4 {
    margin-bottom: 0;
 }
 
+.nav-green {
+	background: #1CAF9A;
+}
+
+.nav-green > li > a, .nav-green > li > a:hover {
+	color: #FFF;
+}
+
 .nav-dark {
    background: #1d2939;
 }

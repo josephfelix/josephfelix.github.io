@@ -4878,3 +4878,7 @@ select.form-control {
 #map-canvas {
 	width: 100% !important;
 }
+
+.overflow-hidden {
+	overflow: hidden;
+}
