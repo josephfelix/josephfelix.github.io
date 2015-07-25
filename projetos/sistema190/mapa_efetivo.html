@@ -44,7 +44,7 @@
         </div>
       
       <ul class="nav nav-pills nav-stacked nav-bracket">
-        <li class="active">
+        <li>
 			<a href="dashboard.html">
 				<i class="fa fa-home"></i>
 			</a>
@@ -54,7 +54,7 @@
 				<i class="fa fa-edit"></i>
 			</a>
 		</li>
-		<li>
+		<li class="active">
 			<a href="mapa_efetivo.html">
 				<i class="fa fa-search"></i>
 			</a>
@@ -151,146 +151,7 @@
     
     <div class="contentpanel">
       
-      <div class="row">
-        
-        <div class="col-sm-6 col-md-3 col-lg-3">
-          <div class="panel">
-            <div class="panel-heading no-padding panel-dashboard-small">
-                <div class="row">
-					<div class="col-xs-5">
-						<div class="panel-left-icon">
-							<i class="fa fa-male"></i><br />
-							Efetivo
-						</div>
-					</div>
-					<div class="col-xs-7 no-padding-left">
-						<div class="row">
-							<div class="col-xs-12">
-								<div class="panel-btns painel-opcoes-efetivo">
-									<a href="#"><i class="fa fa-caret-square-o-down"></i></a>
-									<a href="#"><i class="fa fa-refresh"></i></a>
-								</div>
-							</div>
-							<div class="col-xs-6">
-								<div class="online-cop text-center">
-									<h1 class="no-margin">365</h1>
-									Online
-								</div>
-							</div>
-							<div class="col-xs-6">
-								<div class="offline-cop text-center">
-									<h1 class="no-margin">126</h1>
-									Offline
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-            </div>
-          </div>
-        </div>
-		
-		
-		<div class="col-sm-6 col-md-3">
-          <div class="panel">
-            <div class="panel-heading no-padding panel-dashboard-small">
-                <div class="row">
-					<div class="col-xs-5">
-						<div class="panel-left-icon">
-							<i class="fa fa-car"></i>
-							Efetivo
-						</div>
-					</div>
-					<div class="col-xs-7 no-padding-left">
-						<div class="row">
-							<div class="col-xs-12">
-								<div class="panel-btns painel-opcoes-efetivo">
-									<a href="#"><i class="fa fa-caret-square-o-down"></i></a>
-									<a href="#"><i class="fa fa-refresh"></i></a>
-								</div>
-							</div>
-							<div class="col-xs-6">
-								<div class="online-cop text-center">
-									<h1 class="no-margin">365</h1>
-									Online
-								</div>
-							</div>
-							<div class="col-xs-6">
-								<div class="offline-cop text-center">
-									<h1 class="no-margin">126</h1>
-									Offline
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-            </div>
-          </div>
-        </div>
-		
-		<div class="col-sm-6 col-md-3">
-          <div class="panel">
-            <div class="panel-heading no-padding panel-dashboard-small">
-                <div class="row">
-					<div class="col-xs-5">
-						<div class="panel-left-icon">
-							<i class="fa fa-motorcycle"></i>
-							Frota
-						</div>
-					</div>
-					<div class="col-xs-7 no-padding-left">
-						<div class="row">
-							<div class="col-xs-12">
-								<div class="panel-btns painel-opcoes-efetivo">
-									<a href="#"><i class="fa fa-caret-square-o-down"></i></a>
-									<a href="#"><i class="fa fa-refresh"></i></a>
-								</div>
-							</div>
-							<div class="col-xs-6">
-								<div class="online-cop text-center">
-									<h1 class="no-margin">365</h1>
-									Online
-								</div>
-							</div>
-							<div class="col-xs-6">
-								<div class="offline-cop text-center">
-									<h1 class="no-margin">126</h1>
-									Offline
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-            </div>
-          </div>
-        </div>
-		
-		
-		<div class="col-sm-6 col-md-3">
-          <div class="panel">
-            <div class="panel-heading no-padding panel-dashboard-small">
-                <div class="row">
-					<div class="col-xs-6">
-						<div class="num-ocorrencias text-center">
-							<h1>215</h1>
-							Ocorr&ecirc;ncias
-						</div>
-					</div>
-					<div class="col-xs-6">
-						<div class="panel-aval-ocorrencias text-center">
-							<h1 class="no-margin">BOM</h1>
-							<div class="inline-text">Seu batalh&atilde;o est&aacute; a 1 n&iacute;vel de se tornar excelente</div>
-						</div>
-					</div>
-				</div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-	  
-	  
-      
+      <div class="row">      
 		<div class="panel panel-default">
 			<div class="panel-heading">
 				<div class="panel-btns pull-right">
@@ -354,179 +215,8 @@
 			</div>
 			<div class="panel-body no-padding">
 				<div id="map-canvas" style="width:100%;height:100%;"></div>
-				
-				<br />
-				<div class="row">
-					<div class="col-xs-4" align="center">
-						<div id="bar-chart1" style="width: 100%; height: 300px"></div>
-						<h4 align="center">PENDENTE - 2.455</h4>
-					</div>
-					<div class="col-xs-4" align="center">
-						<div id="bar-chart2" style="width: 100%; height: 300px"></div>
-						<h4 align="center">EM ATENDIMENTO - 2.455</h4>
-					</div>
-					<div class="col-xs-4" align="center">
-						<div id="bar-chart3" style="width: 100%; height: 300px"></div>
-						<h4 align="center">CONCLU&Iacute;DO - 2.455</h4>
-					</div>
-				</div>
-				<hr />
-				<div align="center">
-					<img src="assets/img/legendas.png" width="100%" />
-				</div>
-				<hr />
-				<h4 align="center">TOTAL DE OCORR&Ecirc;NCIAS PARA O DIA 22/02/2015 - 19.510</h4>
 			</div>
-		</div>
-		
-		
-		<div class="row">
-			<div class="col-lg-7">
-				<div class="panel panel-danger panel-alt">
-					<div class="panel-heading">
-						<div class="panel-btns">
-							<a href="#"><i class="fa fa-caret-square-o-down"></i></a>
-							<a href="#"><i class="fa fa-refresh"></i></a>
-						</div><!-- panel-btns -->
-						<h5 class="panel-title">Ocorr&ecirc;ncias pendentes</h5>
-					</div><!-- panel-heading -->
-					<div class="panel-body panel-table">
-						<div class="table-responsive">
-							<table class="table table-bordered">
-								<thead>
-									<tr class="table-head-alt">
-										<th>Tipo Ocorr&ecirc;ncia</th>
-										<th>ID</th>
-										<th>&nbsp;</th>
-										<th>PM Matric.</th>
-										<th>&nbsp;</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Assalto</td>
-										<td>879842141220215</td>
-										<td>
-											<a href="#"><i class="fa fa-map-marker text-danger"></i></a>
-										</td>
-										<td>
-											9875787954
-										</td>
-										<td>
-											<a href="#"><i class="fa fa-plus-circle"></i></a>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-5">
-				<div class="panel panel-primary panel-alt">
-					<div class="panel-heading">
-						<div class="panel-btns">
-							<a href="#"><i class="fa fa-caret-square-o-down"></i></a>
-							<a href="#"><i class="fa fa-refresh"></i></a>
-						</div>
-						<h5 class="panel-title">Em atendimento</h5>
-					</div>
-					<div class="panel-body panel-table">
-						<div class="table-responsive">
-							<table class="table table-bordered">
-								<thead>
-									<tr class="table-head-alt">
-										<th>Tipo Ocorr&ecirc;ncia</th>
-										<th>ID</th>
-										<th>&nbsp;</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Assalto</td>
-										<td>879842141220215</td>
-										<td>
-											<a href="#"><i class="fa fa-map-marker text-danger"></i></a>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-12">
-				<div class="panel panel-success panel-alt">
-					<div class="panel-heading">
-						<div class="panel-btns">
-							<a href="#"><i class="fa fa-caret-square-o-down"></i></a>
-							<a href="#"><i class="fa fa-refresh"></i></a>
-						</div>
-						<h5 class="panel-title">Ocorr&ecirc;ncias finalizadas</h5>
-					</div>
-					<div class="panel-body panel-table">
-						<div class="table-responsive">
-							<table class="table table-bordered">
-								<thead>
-									<tr class="table-head-alt">
-										<th>Finalizada em</th>
-										<th>Iniciada em</th>
-										<th>Tempo</th>
-										<th>Tipo</th>
-										<th>PM Matric.</th>
-										<th>Qualif</th>
-										<th>&nbsp;</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>18:46:21 - 22/02/2015</td>
-										<td>18:26:10 - 22/02/2015</td>
-										<td>20m10s</td>
-										<td>
-											Assalto
-										</td>
-										<td>
-											9875787954
-										</td>
-										<td>
-											<div class="progress">
-												<div style="width: 2%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="2" role="progressbar" class="progress-bar progress-bar-danger">
-												</div>
-											</div>
-										</td>
-										<td>
-											<a href="#"><i class="fa fa-search"></i></a>
-										</td>
-									</tr>
-									<tr>
-										<td>18:46:21 - 22/02/2015</td>
-										<td>18:26:10 - 22/02/2015</td>
-										<td>20m10s</td>
-										<td>
-											Assalto
-										</td>
-										<td>
-											9875787954
-										</td>
-										<td>
-											<div class="progress">
-												<div style="width: 70%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" role="progressbar" class="progress-bar progress-bar-success">
-												</div>
-											</div>
-										</td>
-										<td>
-											<a href="#"><i class="fa fa-search"></i></a>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
+		</div>		
     </div>
     
   </div><!-- mainpanel -->
@@ -629,7 +319,7 @@
                         </a>
                         <div class="media-body">
 							<span class="pull-right badge badge-success rounded">&nbsp;</span>
-                            <strong>Oficiais do Batalh√£o</strong>
+                            <strong>Oficiais do Batalh„o</strong>
                         </div>
                     </div>
                 </li>
