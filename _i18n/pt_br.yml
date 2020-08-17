@@ -26,8 +26,8 @@ experiences:
       url: https://www.globo.com
       logo: https://media-exp1.licdn.com/dms/image/C4D0BAQFm_qDGiGf0Rw/company-logo_100_100/0?e=1605744000&v=beta&t=trrACbTqFWtPpqY1KXlzNwKDfZ2KngWx5bjfgNK6tYo
       details: |
-        Atuo como analista desenvolvedor full stack no time home, 
-        time que cuida da homepage do portal Globo.com, do sistema ONIAS, e da barra de produtos que fica no topo de todos os produtos G (g1, ge, gshow, etc...)
+        Atuo como analista desenvolvedor full stack no Time Home, 
+        time que cuida da homepage do portal Globo.com, do sistema ONIAS, e da barra da globo que fica no topo de todos os produtos G (g1, ge, gshow, etc...)
         Já trabalhei com JavaScript, Ruby e Python desde que ingressei na empresa.
     - role: Senior Lead Developer
       time: 2017 - 2020
@@ -35,13 +35,14 @@ experiences:
       url: http://leolearning.com.br
       logo: https://media-exp1.licdn.com/dms/image/C4E0BAQHMKM0BkIJm7A/company-logo_100_100/0?e=1605744000&v=beta&t=TYbGA9V42B3mr9zmYxqG_SueVZ81XC0KmH8G3JEnF8U
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Atuei como desenvolvedor lead, orientando e desenvolvendo no time Moodle,
+        time que cuida do desenvolvimento, manutenção e gerência dos sistemas de ensino à distância e treinamento empresarial.
+        Atuei diretamente com os clientes, entendendo a necessidade, documentando todo o detalhamento técnico para o time superar a 
+        necessidade dos clientes e no desenvolvimento por completo, desde a parte do front-end, passando pela parte do back-end até a parte de infraestrutura.
+        Nesse tempo que trabalhei na LEO Learning, tive a oportunidade de desenvolver e usar diversas tecnologias, assim como implantar novas tecnologias e 
+        processos de desenvolvimento dentro do time.
+        Trabalhei também desenvolvendo sistemas de integração que roda como um middleware entre o sistema interno do cliente (geralmente ERP) para o Moodle e vice-versa.
+        Desenvolvi em diversas linguagens de programação como: Ruby, Node, JavaScript, TypeScript, PHP, Sass, Mustache, Java (MuleSoft), etc...
     - role: Senior Developer
       time: 2016 - 2017
       company: Intercase

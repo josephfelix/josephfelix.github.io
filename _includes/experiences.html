@@ -18,10 +18,10 @@
         <div class="logo">
           {% if experience.url %}
             <a href="{{ experience.url }}" target="_blank" rel="nofollow">
-              <img src="{{ experience.logo }}" />
+              <img src="{{ experience.logo }}" title="{{ experience.company }}" />
             </a>
           {% else %}
-            <img src="{{ experience.logo }}" />
+            <img src="{{ experience.logo }}" title="{{ experience.company }}" />
           {% endif %}
         </div>
       {% endif %}
