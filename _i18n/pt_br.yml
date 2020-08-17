@@ -1,0 +1,120 @@
+languages:
+  - idiom: Portuguese
+    level: Native
+
+  - idiom: English
+    level: Medium
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Desenvolvedor web especialista com 12 anos de experiência, 4 anos sendo lead developer.
+      Eu liderei um time de desenvolvimento por muitos projetos sobre EAD durante 3 anos na LEO Learning trabalhando com customizações de Moodle em PHP.
+      Também tenho experiência comprovada com desenvolvimento de lojas, onde atuei desenvolvendo multiplas customizações para Magento Enterprise durante 2 anos em PHP.
+      Possuo também experiência com desenvolvimento de integrações, desenvolvi e participei em muitos softwares de integrações usando Ruby on Rails, Laravel e MuleSoft (Java).
+      Colaborei para o desenvolvimento da segurança do Twitter e do Google como pentester em 2010.
+      Colaborei também para o desenvolvimento do banco de dados do Kaspersky em 2011.
+      Eu atualmente trabalho na <a href="https://www.globo.com" target="_blank" rel="nofollow">Globo.com</a> desenvolvendo o portal de notícias mais acessado do Brasil com milhões de acessos diários, trabalho com JavaScript e Python. 
+education:
+    - degree: Ciência da Computação
+      university: Universidade do Estado do Rio de Janeiro (UERJ)
+      time: 2013 -
+experiences:
+    - role: Senior Developer
+      time: 2020 - atualmente
+      company: Globo.com
+      url: https://www.globo.com
+      logo: https://media-exp1.licdn.com/dms/image/C4D0BAQFm_qDGiGf0Rw/company-logo_100_100/0?e=1605744000&v=beta&t=trrACbTqFWtPpqY1KXlzNwKDfZ2KngWx5bjfgNK6tYo
+      details: |
+        Atuo como analista desenvolvedor full stack no time home, 
+        time que cuida da homepage do portal Globo.com, do sistema ONIAS, e da barra de produtos que fica no topo de todos os produtos G (g1, ge, gshow, etc...)
+        Já trabalhei com JavaScript, Ruby e Python desde que ingressei na empresa.
+    - role: Senior Lead Developer
+      time: 2017 - 2020
+      company: LEO Learning Brazil
+      url: http://leolearning.com.br
+      logo: https://media-exp1.licdn.com/dms/image/C4E0BAQHMKM0BkIJm7A/company-logo_100_100/0?e=1605744000&v=beta&t=TYbGA9V42B3mr9zmYxqG_SueVZ81XC0KmH8G3JEnF8U
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - role: Senior Developer
+      time: 2016 - 2017
+      company: Intercase
+      url: https://www.intercase.com.br
+      logo: https://media-exp1.licdn.com/dms/image/C4E0BAQGFMa5pb9jLGA/company-logo_100_100/0?e=1605744000&v=beta&t=1PRaxujwumLpNMtNqbHWT6XQBuMBCPvmiH0sLSjMDcw
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - role: Middle Developer
+      time: 2013 - 2014
+      company: Radar77
+      logo: https://lh3.googleusercontent.com/UJxC0hiyD5NwEqLnl4pRn0wiy1-SU5LKDzu8N4Zy4lU61_uNDOnvIeOscR5vxP8EGUj1Bm2Azg=w128-h128-e365
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+projects:
+    title: Projects
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: The Art of Computer Programming
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: A syntax directed compiler for Algol 60
+        link: "#"
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="https://josephfelix.dev" target="_blank" rel="nofollow">Joseph F.</a>

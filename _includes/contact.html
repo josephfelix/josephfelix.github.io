@@ -1,0 +1,41 @@
+<div class="contact-container container-block">
+  <ul class="list-unstyled contact-list">
+    {% if sidebar.email %}
+    <li class="email"><i class="fas fa-envelope"></i>
+      <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.phone %}
+    <li class="phone"><i class="fab fa-whatsapp"></i>
+      <a href="https://api.whatsapp.com/send?phone=+{{ sidebar.phone | regex_replace: '\+|\(|\)|\s|-', '' }}" target="_blank">{{ sidebar.phone }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.websites %}
+      {% for website in sidebar.websites %}
+        <li class="website"><i class="fas fa-globe-americas"></i>
+          <a href="https://{{ website }}" target="_blank">{{ website }}</a>
+        </li>
+      {% endfor %}
+    {% endif %}
+
+    {% if sidebar.linkedin %}
+    <li class="linkedin"><i class="fab fa-linkedin"></i>
+      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.github %}
+    <li class="github"><i class="fab fa-github"></i>
+      <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.facebook %}
+    <li class="facebook"><i class="fab fa-facebook"></i>
+      <a href="https://www.facebook.com/{{ sidebar.facebook }}" target="_blank">{{ sidebar.facebook }}</a>
+    </li>
+    {% endif %}
+  </ul>
+</div>

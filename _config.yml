@@ -1,0 +1,30 @@
+title: Portfólio
+url: 'https://josephfelix.dev'
+description: Seja bem vindo ao meu portfólio, onde apresento meus projetos e escrevo sobre mim.
+chrome_mobile_color: '#252525'
+analytics: UA-160190929-1
+languages: ["pt_br", "en"]
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+compress-site: yes
+
+encoding: "utf-8"
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+port: 8000
+host: 127.0.0.1
+safe: false
+
+exclude:
+  - .jekyll-cache/
+  - CNAME
+
+plugins:
+  - jekyll-regex-replace
+  - jekyll-multiple-languages-plugin
