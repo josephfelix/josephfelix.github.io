@@ -15,21 +15,9 @@
   </div>
   {% endif %}
 
-  {% for project in projects.assignments %}
+  {% for project in projects.companies %}
     <div class="item">
-
-      <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
-        {% endif %}
-      </span>
-
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
-      {% endif %}
-
+      <img src="assets/images/{{ project.logo }}" title="{{ project.title }}" />
     </div>
   {% endfor %}
 </section>

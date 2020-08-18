@@ -77,6 +77,7 @@ experience:
       - role: Estágio em desenvolvimento
         time: 2012 - 2013
         company: Mágico das Ofertas
+        url: https://www.facebook.com/magicodasofertas/
         logo: magico-das-ofertas.png
         details: |
           O Mágico das Ofertas foi uma startup com um conceito de compra em grupo, 
@@ -87,29 +88,10 @@ experience:
 projects:
     title: Clientes
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      Lista de clientes na qual eu já trabalhei desenvolvendo algum projeto e atuando diretamente.
+    companies:
+      - title: SENAI Cetiqt
+        logo: senai-cetiqt.png
 
 publications:
     title: Publications
