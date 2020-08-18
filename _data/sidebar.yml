@@ -4,7 +4,9 @@ tagline: Web Developer
 avatar: https://github.com/josephfelix.png
 
 # Sidebar links
-email: contato@josephfelix.dev
+email: 
+  pt_br: contato@josephfelix.dev
+  en: contact@josephfelix.dev
 phone: (+55) 21 98459-3240
 websites: 
   - josephfelix.dev

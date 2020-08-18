@@ -73,14 +73,17 @@ experience:
         logo: radar77.png
         details: |
           Startup com uma ideia de produto de buscadores de preço, empresa de pequeno porte.
-          Trabalhei desenvolvendo a plataforma em PHP, e também desenvolvendo extensão para Google Chrome e Firefox usando XUL e JavaScript.
+          Trabalhei desenvolvendo extensão para Google Chrome e Firefox usando XUL, XML, HTML e JavaScript.
       - role: Estágio em desenvolvimento
         time: 2012 - 2013
         company: Mágico das Ofertas
         logo: magico-das-ofertas.png
         details: |
           O Mágico das Ofertas foi uma startup com um conceito de compra em grupo, 
-          que chamamos de “Economia Inteligente”. No sistema você encontrava produtos onde concorria a descontos reais de até 80%.
+          que se intitulava uma nova forma de "Economia Inteligente". 
+          No sistema você encontrava produtos onde concorria a descontos reais de até 80% do preço total do produto.
+          Desenvolvi diversas partes do projeto que consistia na integração dos produtos com o Lomadee, integrações com gateway de pagamento, sistema de usuário, CMA para os administradores, etc...
+          Todo o sistema foi desenvolvido com o framework CodeIgniter.
 projects:
     title: Clientes
     intro: >
