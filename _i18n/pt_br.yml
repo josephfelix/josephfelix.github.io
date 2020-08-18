@@ -1,12 +1,13 @@
-languages:
-  - idiom: Portuguese
-    level: Native
-
-  - idiom: English
-    level: Medium
+language:
+  title: Idiomas
+  languages:
+    - idiom: Portuguese
+      level: Nativo
+    - idiom: English
+      level: Avançado
 
 career-profile:
-    title: Career Profile
+    title: Quem eu sou
     summary: |
       Desenvolvedor web especialista com 12 anos de experiência, 4 anos sendo lead developer.
       Eu liderei um time de desenvolvimento por muitos projetos sobre EAD durante 3 anos na LEO Learning trabalhando com customizações de Moodle em PHP.
@@ -16,60 +17,65 @@ career-profile:
       Colaborei também para o desenvolvimento do banco de dados do Kaspersky em 2011.
       Eu atualmente trabalho na <a href="https://www.globo.com" target="_blank" rel="nofollow">Globo.com</a> desenvolvendo o portal de notícias mais acessado do Brasil com milhões de acessos diários, trabalho com JavaScript e Python. 
 education:
-    - degree: Ciência da Computação
-      university: Universidade do Estado do Rio de Janeiro (UERJ)
-      time: 2013 -
-experiences:
-    - role: Senior Developer
-      time: 2020 - atualmente
-      company: Globo.com
-      url: https://www.globo.com
-      logo: https://media-exp1.licdn.com/dms/image/C4D0BAQFm_qDGiGf0Rw/company-logo_100_100/0?e=1605744000&v=beta&t=trrACbTqFWtPpqY1KXlzNwKDfZ2KngWx5bjfgNK6tYo
-      details: |
-        Atuo como analista desenvolvedor full stack no Time Home, 
-        time que cuida da homepage do portal Globo.com, do sistema ONIAS, e da barra da globo que fica no topo de todos os produtos G (g1, ge, gshow, etc...)
-        Já trabalhei com JavaScript, Ruby e Python desde que ingressei na empresa.
-    - role: Senior Lead Developer
-      time: 2017 - 2020
-      company: LEO Learning Brazil
-      url: http://leolearning.com.br
-      logo: https://media-exp1.licdn.com/dms/image/C4E0BAQHMKM0BkIJm7A/company-logo_100_100/0?e=1605744000&v=beta&t=TYbGA9V42B3mr9zmYxqG_SueVZ81XC0KmH8G3JEnF8U
-      details: |
-        Atuei como desenvolvedor lead, orientando e desenvolvendo no time Moodle,
-        time que cuida do desenvolvimento, manutenção e gerência dos sistemas de ensino à distância e treinamento empresarial.
-        Atuei diretamente com os clientes, entendendo a necessidade, documentando todo o detalhamento técnico para o time superar a 
-        necessidade dos clientes e no desenvolvimento por completo, desde a parte do front-end, passando pela parte do back-end até a parte de infraestrutura.
-        Nesse tempo que trabalhei na LEO Learning, tive a oportunidade de desenvolver e usar diversas tecnologias, assim como implantar novas tecnologias e 
-        processos de desenvolvimento dentro do time.
-        Trabalhei também desenvolvendo sistemas de integração que roda como um middleware entre o sistema interno do cliente (geralmente ERP) para o Moodle e vice-versa.
-        Desenvolvi em diversas linguagens de programação como: Ruby, Node, JavaScript, TypeScript, PHP, Sass, Mustache, Java (MuleSoft), etc...
-    - role: Senior Developer
-      time: 2016 - 2017
-      company: Intercase
-      url: https://www.intercase.com.br
-      logo: https://media-exp1.licdn.com/dms/image/C4E0BAQGFMa5pb9jLGA/company-logo_100_100/0?e=1605744000&v=beta&t=1PRaxujwumLpNMtNqbHWT6XQBuMBCPvmiH0sLSjMDcw
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: Middle Developer
-      time: 2013 - 2014
-      company: Radar77
-      logo: https://lh3.googleusercontent.com/UJxC0hiyD5NwEqLnl4pRn0wiy1-SU5LKDzu8N4Zy4lU61_uNDOnvIeOscR5vxP8EGUj1Bm2Azg=w128-h128-e365
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    title: Formação
+    universities:
+      - degree: Ciência da Computação
+        university: Universidade do Estado do Rio de Janeiro (UERJ)
+        time: 2013 -
+experience:
+    title: Experiências
+    companies:
+      - role: Senior Developer
+        time: 2020 - atualmente
+        company: Globo.com
+        url: https://www.globo.com
+        logo: https://media-exp1.licdn.com/dms/image/C4D0BAQFm_qDGiGf0Rw/company-logo_100_100/0?e=1605744000&v=beta&t=trrACbTqFWtPpqY1KXlzNwKDfZ2KngWx5bjfgNK6tYo
+        details: |
+          Atuo como analista desenvolvedor full stack no Time Home, 
+          time que cuida da homepage do portal Globo.com, do sistema ONIAS, e da barra da globo que fica no topo de todos os produtos G (g1, ge, gshow, etc...)
+          Já trabalhei com JavaScript, Ruby e Python desde que ingressei na empresa.
+          A globo.com é um dos portais de notícias mais acessados do Brasil com milhões de acessos diários.
+      - role: Senior Lead Developer
+        time: 2017 - 2020
+        company: LEO Learning Brazil
+        url: http://leolearning.com.br
+        logo: https://media-exp1.licdn.com/dms/image/C4E0BAQHMKM0BkIJm7A/company-logo_100_100/0?e=1605744000&v=beta&t=TYbGA9V42B3mr9zmYxqG_SueVZ81XC0KmH8G3JEnF8U
+        details: |
+          Atuei como desenvolvedor lead, orientando e desenvolvendo no time Moodle,
+          time que cuida do desenvolvimento, manutenção e gerência dos sistemas de ensino à distância e treinamento empresarial.
+          Atuei diretamente com os clientes, entendendo a necessidade, documentando todo o detalhamento técnico para o time superar a 
+          necessidade dos clientes e no desenvolvimento por completo, desde a parte do front-end, passando pela parte do back-end até a parte de infraestrutura.
+          Nesse tempo que trabalhei na LEO Learning, tive a oportunidade de desenvolver e usar diversas tecnologias, assim como implantar novas tecnologias e 
+          processos de desenvolvimento dentro do time.
+          Trabalhei também desenvolvendo sistemas de integração que roda como um middleware entre o sistema interno do cliente (geralmente ERP) para o Moodle e vice-versa.
+          Desenvolvi em diversas linguagens de programação como: Ruby, Node, JavaScript, TypeScript, PHP, Sass, Mustache, Java (MuleSoft), etc...
+      - role: Senior Developer
+        time: 2016 - 2017
+        company: Intercase
+        url: https://www.intercase.com.br
+        logo: https://media-exp1.licdn.com/dms/image/C4E0BAQGFMa5pb9jLGA/company-logo_100_100/0?e=1605744000&v=beta&t=1PRaxujwumLpNMtNqbHWT6XQBuMBCPvmiH0sLSjMDcw
+        details: |
+          Atuei como desenvolvedor sênior, desenvolvendo customizações como módulos de pagamento, carrinho, cadastros, etc...
+          Trabalhei com Magento 1 e Magento 2 usando PHP, desenvolvi também integrações usando MuleSoft em Java.
+          Foi a primeira vez que trabalhei com microserviços, docker, caches e montei arquiteturas de sistemas distribuidos usando estrutura de filas e outros serviços da AWS.
+      - role: Middle Developer
+        time: 2015 - 2016
+        company: Epic Learning Brazil
+        logo: https://media-exp1.licdn.com/dms/image/C560BAQFqFeIcmz49vQ/company-logo_200_200/0?e=1605744000&v=beta&t=BMkKgvCPUzirjOxq7FoITBBJbjcG-be8TkLtrulfaQE
+        details: |
+          Atuei como desenvolvedor full stack, desenvolvendo customizações e sistemas como frontend e como backend,
+          Trabalhei com o Moodle desenvolvendo sistemas de ensino a distância e treinamento empresarial.
+          Foi a primeira vez que trabalhei com metodologias ágeis como Scrum e Kanban.
+          Atuei desenvolvendo usando tecnologias como PHP, JavaScript e Sass
+      - role: Middle Developer
+        time: 2013 - 2014
+        company: Radar77
+        logo: https://lh3.googleusercontent.com/UJxC0hiyD5NwEqLnl4pRn0wiy1-SU5LKDzu8N4Zy4lU61_uNDOnvIeOscR5vxP8EGUj1Bm2Azg=w128-h128-e365
+        details: |
+          Startup com uma ideia de produto de buscadores de preço, empresa de pequeno porte.
+          Trabalhei desenvolvendo a plataforma em PHP, e também desenvolvendo extensão para Google Chrome e Firefox usando XUL e JavaScript.
 projects:
-    title: Projects
+    title: Clientes
     intro: >
       You can list your side projects or open source libraries in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.

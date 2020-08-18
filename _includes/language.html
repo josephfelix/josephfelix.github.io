@@ -1,15 +1,15 @@
-{% assign languages = site.translations[site.lang].languages %}
-{% if languages %}
+{% assign language = site.translations[site.lang].language %}
+{% if language %}
 <div class="languages-container container-block">
   <h2 class="container-block-title">
-    Languages
+    {{ language.title }}
   </h2>
 
   <ul class="list-unstyled interests-list">
-    {% for language in languages %}
+    {% for languages in language.languages %}
     <li>
-      {{ language.idiom }}
-      <span class="lang-desc">({{ language.level }})</span>
+      {{ languages.idiom }}
+      <span class="lang-desc">({{ languages.level }})</span>
     </li>
     {% endfor %}
   </ul>
