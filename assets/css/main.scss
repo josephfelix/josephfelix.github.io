@@ -4,5 +4,11 @@
 
 @charset "utf-8";
 
-@import "colors"; // colors
-@import "default"; // main partials
+// Bootstrap v3.3.6
+@import "bootstrap";
+
+// FontAwesome v5.1.1
+@import "fontawesome-free/css/all";
+
+// Portfólio
+@import "default";

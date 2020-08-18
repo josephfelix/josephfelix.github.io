@@ -6,7 +6,10 @@ analytics: UA-160190929-1
 languages: ["pt_br", "en"]
 
 sass:
-  sass_dir: _sass
+  load_paths:
+    - _sass
+    - node_modules/bootstrap/dist/css
+    - node_modules/@fortawesome
   style: compressed
 
 compress-site: yes

@@ -1,0 +1,30 @@
+{
+  "name": "josephfelix.github.io",
+  "version": "1.0.0",
+  "description": "Portfólio onde apresento meus projetos e escrevo sobre mim.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephfelix/josephfelix.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "projeto",
+    "pessoal",
+    "joseph",
+    "felix"
+  ],
+  "author": "Joseph F. <contato@josephfelix.dev>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephfelix/josephfelix.github.io/issues"
+  },
+  "homepage": "https://github.com/josephfelix/josephfelix.github.io#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.1.1",
+    "bootstrap": "^3.3.6"
+  }
+}
