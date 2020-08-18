@@ -92,28 +92,45 @@ projects:
     companies:
       - title: SENAI Cetiqt
         logo: senai-cetiqt.png
+      - title: Coca Cola
+        logo: coca-cola.png
+      - title: Mackenzie
+        logo: mackenzie.png
+      - title: Shell
+        logo: shell.png
+      - title: TIM
+        logo: tim.png
+      - title: Wizard
+        logo: wizard.png
+      - title: Norsul
+        logo: norsul.png
+      - title: Raízen
+        logo: raizen.png
+      - title: Sapura
+        logo: sapura.png
+      - title: Instituto Unibanco
+        logo: unibanco.png
+      - title: IPOG
+        logo: ipog.png
+      - title: UniCarioca
+        logo: unicarioca.png
+      - title: UNISUAM
+        logo: unisuam.png
 
 publications:
-    title: Publications
+    title: Publicações
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Lista de publicações na mídia na qual eu escrevi ou fui citado.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Como mais de 350 mil pessoas caíram na falha do Twitter
+        link: "https://medium.com/@josephfelix/como-mais-de-350-mil-pessoas-ca%C3%ADram-na-falha-do-twitter-a4131d3bf531"
+        authors: Joseph Felix
+        date: "Jun 13, 2018"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Adolescentes brasileiros corrigem bug do Twitter
+        link: "https://olhardigital.com.br/noticia/adolescentes-brasileiros-corrigem-bug-do-twitter/14485"
+        authors: Redação Olhar Digital
+        date: "Out 25, 2010"
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="https://josephfelix.dev" target="_blank" rel="nofollow">Joseph F.</a>
