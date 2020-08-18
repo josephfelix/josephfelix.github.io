@@ -29,7 +29,7 @@ experience:
         time: 2020 - atualmente
         company: Globo.com
         url: https://www.globo.com
-        logo: https://media-exp1.licdn.com/dms/image/C4D0BAQFm_qDGiGf0Rw/company-logo_100_100/0?e=1605744000&v=beta&t=trrACbTqFWtPpqY1KXlzNwKDfZ2KngWx5bjfgNK6tYo
+        logo: globocom.png
         details: |
           Atuo como analista desenvolvedor full stack no Time Home, 
           time que cuida da homepage do portal Globo.com, do sistema ONIAS, e da barra da globo que fica no topo de todos os produtos G (g1, ge, gshow, etc...)
@@ -39,7 +39,7 @@ experience:
         time: 2017 - 2020
         company: LEO Learning Brazil
         url: http://leolearning.com.br
-        logo: https://media-exp1.licdn.com/dms/image/C4E0BAQHMKM0BkIJm7A/company-logo_100_100/0?e=1605744000&v=beta&t=TYbGA9V42B3mr9zmYxqG_SueVZ81XC0KmH8G3JEnF8U
+        logo: leolearning.jpg
         details: |
           Atuei como desenvolvedor lead, orientando e desenvolvendo no time Moodle,
           time que cuida do desenvolvimento, manutenção e gerência dos sistemas de ensino à distância e treinamento empresarial.
@@ -53,7 +53,7 @@ experience:
         time: 2016 - 2017
         company: Intercase
         url: https://www.intercase.com.br
-        logo: https://media-exp1.licdn.com/dms/image/C4E0BAQGFMa5pb9jLGA/company-logo_100_100/0?e=1605744000&v=beta&t=1PRaxujwumLpNMtNqbHWT6XQBuMBCPvmiH0sLSjMDcw
+        logo: intercase.png
         details: |
           Atuei como desenvolvedor sênior, desenvolvendo customizações como módulos de pagamento, carrinho, cadastros, etc...
           Trabalhei com Magento 1 e Magento 2 usando PHP, desenvolvi também integrações usando MuleSoft em Java.
@@ -61,19 +61,26 @@ experience:
       - role: Middle Developer
         time: 2015 - 2016
         company: Epic Learning Brazil
-        logo: https://media-exp1.licdn.com/dms/image/C560BAQFqFeIcmz49vQ/company-logo_200_200/0?e=1605744000&v=beta&t=BMkKgvCPUzirjOxq7FoITBBJbjcG-be8TkLtrulfaQE
+        logo: epic.png
         details: |
           Atuei como desenvolvedor full stack, desenvolvendo customizações e sistemas como frontend e como backend,
           Trabalhei com o Moodle desenvolvendo sistemas de ensino a distância e treinamento empresarial.
           Foi a primeira vez que trabalhei com metodologias ágeis como Scrum e Kanban.
           Atuei desenvolvendo usando tecnologias como PHP, JavaScript e Sass
-      - role: Middle Developer
+      - role: Junior Developer
         time: 2013 - 2014
         company: Radar77
-        logo: https://lh3.googleusercontent.com/UJxC0hiyD5NwEqLnl4pRn0wiy1-SU5LKDzu8N4Zy4lU61_uNDOnvIeOscR5vxP8EGUj1Bm2Azg=w128-h128-e365
+        logo: radar77.png
         details: |
           Startup com uma ideia de produto de buscadores de preço, empresa de pequeno porte.
           Trabalhei desenvolvendo a plataforma em PHP, e também desenvolvendo extensão para Google Chrome e Firefox usando XUL e JavaScript.
+      - role: Estágio em desenvolvimento
+        time: 2012 - 2013
+        company: Mágico das Ofertas
+        logo: magico-das-ofertas.png
+        details: |
+          O Mágico das Ofertas foi uma startup com um conceito de compra em grupo, 
+          que chamamos de “Economia Inteligente”. No sistema você encontrava produtos onde concorria a descontos reais de até 80%.
 projects:
     title: Clientes
     intro: >
