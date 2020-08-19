@@ -1,9 +1,9 @@
 language:
   title: Idiomas
   languages:
-    - idiom: Portuguese
+    - idiom: Português
       level: Nativo
-    - idiom: English
+    - idiom: Inglês
       level: Avançado
 
 career-profile:
