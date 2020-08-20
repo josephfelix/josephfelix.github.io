@@ -5,10 +5,10 @@
 @charset "utf-8";
 
 // Bootstrap v3.3.6
-@import "bootstrap";
+@import "bootstrap/scss/bootstrap";
 
 // FontAwesome v5.1.1
-@import "fontawesome-free/css/all";
+@import "@fortawesome/fontawesome-free/css/all";
 
 // Portfólio
 @import "default";

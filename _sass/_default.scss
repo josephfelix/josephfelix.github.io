@@ -2,11 +2,10 @@
  * Template Name: Portfólio
  * Version: 1.0
  * Author: Joseph F.
- * License: Creative Commons Attribution 3.0 License
  * Website: https://josephfelix.dev
 */
 
 @import "variables";
+@import "mixins";
 @import "base";
-@import "responsive";
-@import "print";
+@import "components";

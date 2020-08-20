@@ -1,12 +1,13 @@
-languages:
-  - idiom: Portuguese
-    level: Native
-
-  - idiom: English
-    level: Medium
+language:
+  title: Languages
+  languages:
+    - idiom: Portuguese
+      level: Native
+    - idiom: English
+      level: Advanced
 
 career-profile:
-    title: Career Profile
+    title: Who am I
     summary: |
       I'm web developer specialist by having 12 years of experience, 4 years as a lead developer.
       I led a developer team for many projects about distance education during 3 years at LEO Learning working with Moodle customizations in PHP.
@@ -16,110 +17,122 @@ career-profile:
       I also collaborated to development of Kaspersky database in 2011.
       I'm currently working on <a href="https://www.globo.com" target="_blank" rel="nofollow">Globo.com</a> homepage using JavaScript and Python.
 education:
-    - degree: Computer Science
-      university: Universidade do Estado do Rio de Janeiro (UERJ)
-      time: 2013 -
-experiences:
-    - role: Senior Developer
-      time: 2020 - Present
-      company: Globo.com
-      logo: https://media-exp1.licdn.com/dms/image/C4D0BAQFm_qDGiGf0Rw/company-logo_100_100/0?e=1605744000&v=beta&t=trrACbTqFWtPpqY1KXlzNwKDfZ2KngWx5bjfgNK6tYo
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Lead Developer
-      time: 2017 - 2020
-      company: LEO Learning Brazil
-      logo: https://media-exp1.licdn.com/dms/image/C4E0BAQHMKM0BkIJm7A/company-logo_100_100/0?e=1605744000&v=beta&t=TYbGA9V42B3mr9zmYxqG_SueVZ81XC0KmH8G3JEnF8U
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: Senior Developer
-      time: 2016 - 2017
-      company: Intercase
-      logo: https://media-exp1.licdn.com/dms/image/C4E0BAQGFMa5pb9jLGA/company-logo_100_100/0?e=1605744000&v=beta&t=1PRaxujwumLpNMtNqbHWT6XQBuMBCPvmiH0sLSjMDcw
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: Middle Developer
-      time: 2013 - 2014
-      company: Radar77
-      logo: https://media-exp1.licdn.com/dms/image/C4E0BAQGFMa5pb9jLGA/company-logo_100_100/0?e=1605744000&v=beta&t=1PRaxujwumLpNMtNqbHWT6XQBuMBCPvmiH0sLSjMDcw
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    title: Education
+    universities:
+      - degree: Computer Science
+        university: Universidade do Estado do Rio de Janeiro (UERJ)
+        time: 2013 -
+experience:
+    title: Experiences
+    companies:
+      - role: Senior Developer
+        time: 2020 - current
+        company: Globo.com
+        url: https://www.globo.com
+        logo: globocom.png
+        details: |
+          Atuo como analista desenvolvedor full stack no Time Home, 
+          time que cuida da homepage do portal Globo.com, do sistema ONIAS, e da barra da globo que fica no topo de todos os produtos G (g1, ge, gshow, etc...)
+          Já trabalhei com JavaScript, Ruby e Python desde que ingressei na empresa.
+          A globo.com é um dos portais de notícias mais acessados do Brasil com milhões de acessos diários.
+      - role: Senior Lead Developer
+        time: 2017 - 2020
+        company: LEO Learning Brazil
+        url: http://leolearning.com.br
+        logo: leolearning.jpg
+        details: |
+          Atuei como desenvolvedor lead, orientando e desenvolvendo no time Moodle,
+          time que cuida do desenvolvimento, manutenção e gerência dos sistemas de ensino à distância e treinamento empresarial.
+          Atuei diretamente com os clientes, entendendo a necessidade, documentando todo o detalhamento técnico para o time superar a 
+          necessidade dos clientes e no desenvolvimento por completo, desde a parte do front-end, passando pela parte do back-end até a parte de infraestrutura.
+          Nesse tempo que trabalhei na LEO Learning, tive a oportunidade de desenvolver e usar diversas tecnologias, assim como implantar novas tecnologias e 
+          processos de desenvolvimento dentro do time.
+          Trabalhei também desenvolvendo sistemas de integração que roda como um middleware entre o sistema interno do cliente (geralmente ERP) para o Moodle e vice-versa.
+          Desenvolvi em diversas linguagens de programação como: Ruby, Node, JavaScript, TypeScript, PHP, Sass, Mustache, Java (MuleSoft), etc...
+      - role: Senior Developer
+        time: 2016 - 2017
+        company: Intercase
+        url: https://www.intercase.com.br
+        logo: intercase.png
+        details: |
+          Atuei como desenvolvedor sênior, desenvolvendo customizações como módulos de pagamento, carrinho, cadastros, etc...
+          Trabalhei com Magento 1 e Magento 2 usando PHP, desenvolvi também integrações usando MuleSoft em Java.
+          Foi a primeira vez que trabalhei com microserviços, docker, caches e montei arquiteturas de sistemas distribuidos usando estrutura de filas e outros serviços da AWS.
+      - role: Middle Developer
+        time: 2015 - 2016
+        company: Epic Learning Brazil
+        logo: epic.png
+        details: |
+          Atuei como desenvolvedor full stack, desenvolvendo customizações e sistemas como frontend e como backend,
+          Trabalhei com o Moodle desenvolvendo sistemas de ensino a distância e treinamento empresarial.
+          Foi a primeira vez que trabalhei com metodologias ágeis como Scrum e Kanban.
+          Atuei desenvolvendo usando tecnologias como PHP, JavaScript e Sass
+      - role: Junior Developer
+        time: 2013 - 2014
+        company: Radar77
+        logo: radar77.png
+        details: |
+          Startup com uma ideia de produto de buscadores de preço, empresa de pequeno porte.
+          Trabalhei desenvolvendo extensão para Google Chrome e Firefox usando XUL, XML, HTML e JavaScript.
+      - role: Estágio em desenvolvimento
+        time: 2012 - 2013
+        company: Mágico das Ofertas
+        url: https://www.facebook.com/magicodasofertas/
+        logo: magico-das-ofertas.png
+        details: |
+          O Mágico das Ofertas foi uma startup com um conceito de compra em grupo, 
+          que se intitulava uma nova forma de "Economia Inteligente". 
+          No sistema você encontrava produtos onde concorria a descontos reais de até 80% do preço total do produto.
+          Desenvolvi diversas partes do projeto que consistia na integração dos produtos com o Lomadee, integrações com gateway de pagamento, sistema de usuário, CMA para os administradores, etc...
+          Todo o sistema foi desenvolvido com o framework CodeIgniter.
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      Lista de clientes na qual eu já trabalhei desenvolvendo algum projeto e atuando diretamente.
+    companies:
+      - title: SENAI Cetiqt
+        logo: senai-cetiqt.png
+      - title: Coca Cola
+        logo: coca-cola.png
+      - title: Mackenzie
+        logo: mackenzie.png
+      - title: Shell
+        logo: shell.png
+      - title: TIM
+        logo: tim.png
+      - title: Wizard
+        logo: wizard.png
+      - title: Norsul
+        logo: norsul.png
+      - title: Raízen
+        logo: raizen.png
+      - title: Sapura
+        logo: sapura.png
+      - title: Instituto Unibanco
+        logo: unibanco.png
+      - title: IPOG
+        logo: ipog.png
+      - title: UniCarioca
+        logo: unicarioca.png
+      - title: UNISUAM
+        logo: unisuam.png
+      - title: Rede Nacional de Ensino e Pesquisa
+        logo: rnp.png
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Lista de publicações na mídia na qual eu escrevi ou fui citado.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Como mais de 350 mil pessoas caíram na falha do Twitter
+        link: "https://medium.com/@josephfelix/como-mais-de-350-mil-pessoas-ca%C3%ADram-na-falha-do-twitter-a4131d3bf531"
+        authors: Joseph Felix
+        date: "Jun 13, 2018"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Adolescentes brasileiros corrigem bug do Twitter
+        link: "https://olhardigital.com.br/noticia/adolescentes-brasileiros-corrigem-bug-do-twitter/14485"
+        authors: Redação Olhar Digital
+        date: "Out 25, 2010"
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="https://josephfelix.dev" target="_blank" rel="nofollow">Joseph F.</a>

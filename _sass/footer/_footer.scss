@@ -1,0 +1,23 @@
+@import "variables";
+
+.footer {
+    padding-top: $footer-gutter;
+
+    > .copyright {
+        display: block;
+        line-height: 1.6;
+        text-align: center;
+        color: $footer-copyright-color;
+        font-size: $footer-copyright-fontsize;
+
+        > .fa-heart {
+            color: $footer-heart-color;
+        }
+    }
+
+    @if $footer-hidden-on-print {
+        @media print {
+            display: none;
+        }
+    }
+}

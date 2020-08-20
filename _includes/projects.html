@@ -15,10 +15,12 @@
   </div>
   {% endif %}
 
-  {% for project in projects.companies %}
-    <div class="item">
-      <img src="assets/images/{{ project.logo }}" title="{{ project.title }}" />
-    </div>
-  {% endfor %}
+  <div class="projects row">
+    {% for project in projects.companies %}
+      <div class="item col-md-4 col-xs-12">
+        <img src="assets/images/{{ project.logo }}" title="{{ project.title }}" />
+      </div>
+    {% endfor %}
+  </div>
 </section>
 {% endif %}
