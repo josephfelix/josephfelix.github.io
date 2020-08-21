@@ -18,12 +18,7 @@
         position: static;
         float: right;
         width: 40%;
-
-        @include prefix(
-            (
-                print-color-adjust: exact,
-            )
-        );
+        -webkit-print-color-adjust: exact;
     }
 
     a {
@@ -131,7 +126,7 @@
                 margin-bottom: 0px;
                 margin-top: 0;
             }
-            
+
             .meta {
                 font-size: 14px;
             }
