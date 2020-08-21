@@ -18,7 +18,15 @@
         position: static;
         float: right;
         width: 40%;
-        -webkit-print-color-adjust: exact;
+        border-left: solid 1px #dadada;
+        border-bottom: solid 1px #dadada;
+        margin-left: 5mm;
+        
+        @include prefix(
+            (
+                print-color-adjust: exact,
+            )
+        );
     }
 
     a {
@@ -91,10 +99,6 @@
 
     .container-block {
         padding: 30px;
-
-        @media print {
-            display: none;
-        }
     }
 
     .container-block-title {

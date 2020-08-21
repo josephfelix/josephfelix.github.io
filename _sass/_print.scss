@@ -1,0 +1,35 @@
+@media print {
+    @page {
+        size: A4;
+        margin-top: 50mm;
+    }
+
+    *, *:before, *:after {
+        color: #000 !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+
+    img {
+        max-width: 100% !important;
+        @include prefix(
+            (
+                filter: grayscale(1),
+            )
+        );
+    }
+
+    tr, img {
+        page-break-inside: avoid;
+    }
+
+    a {
+        text-decoration: none !important;
+
+        &[href]:after {
+            content: " (" attr(href) ")";
+        }
+    }
+}

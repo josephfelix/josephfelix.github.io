@@ -1,11 +1,5 @@
 /* ======= Base ======= */
 
-@media print {
-    @page {
-        size: A4;
-    }
-}
-
 body {
     font-family: "Roboto", sans-serif;
     color: $text-color-secondary;
@@ -28,7 +22,7 @@ body {
 
         &:hover {
             text-decoration: underline;
-            color: darken($theme-color, 30%);
+            color: inherit;
         }
         
         &:focus {
