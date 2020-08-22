@@ -7,11 +7,11 @@ language:
       level: Advanced
 
 career-profile:
-    title: Who am I
+    title: About me
     summary: |
       I'm web developer specialist by having 12 years of experience, 4 years as a lead developer.
       I led a developer team for many projects about distance education during 3 years at LEO Learning working with Moodle customizations in PHP.
-      I've experience in store development leading and making multiple customizations for Magento Enterprise during 2 years.
+      I've experience in ecommerce development leading and making multiple customizations for Magento Enterprise during 2 years.
       I also have experience with system integration, I built multiple integrations using Ruby on Rails, Laravel and MuleSoft (Java).
       I collaborated to development and security testing of Twitter and Google as a pentester in 2010.
       I also collaborated to development of Kaspersky database in 2011.
@@ -31,64 +31,61 @@ experience:
         url: https://www.globo.com
         logo: globocom.png
         details: |
-          Atuo como analista desenvolvedor full stack no Time Home, 
-          time que cuida da homepage do portal Globo.com, do sistema ONIAS, e da barra da globo que fica no topo de todos os produtos G (g1, ge, gshow, etc...)
-          Já trabalhei com JavaScript, Ruby e Python desde que ingressei na empresa.
-          A globo.com é um dos portais de notícias mais acessados do Brasil com milhões de acessos diários.
+          I'm a full stack software developer of home team.
+          The team gives maintenance and development of new projects to Globo.com homepage, ONIAS and globo.com top bar which stay in top of G products (g1, ge, gshow, etc...)
+          I've been working with JavaScript, Ruby and Python since I joined in company.
+          globo.com is a most visited news platform of Brazil, it has more than a million clicks every day.
       - role: Senior Lead Developer
         time: 2017 - 2020
         company: LEO Learning Brazil
         url: http://leolearning.com.br
         logo: leolearning.jpg
         details: |
-          Atuei como desenvolvedor lead, orientando e desenvolvendo no time Moodle,
-          time que cuida do desenvolvimento, manutenção e gerência dos sistemas de ensino à distância e treinamento empresarial.
-          Atuei diretamente com os clientes, entendendo a necessidade, documentando todo o detalhamento técnico para o time superar a 
-          necessidade dos clientes e no desenvolvimento por completo, desde a parte do front-end, passando pela parte do back-end até a parte de infraestrutura.
-          Nesse tempo que trabalhei na LEO Learning, tive a oportunidade de desenvolver e usar diversas tecnologias, assim como implantar novas tecnologias e 
-          processos de desenvolvimento dentro do time.
-          Trabalhei também desenvolvendo sistemas de integração que roda como um middleware entre o sistema interno do cliente (geralmente ERP) para o Moodle e vice-versa.
-          Desenvolvi em diversas linguagens de programação como: Ruby, Node, JavaScript, TypeScript, PHP, Sass, Mustache, Java (MuleSoft), etc...
+          In this company I was a lead developer, managing and developing in Moodle team,
+          The team gives maintenance and development in clients system, these system are about online education and business training.
+          I worked directly to clients, getting the requirements, writing all technical details to developers of my team.          
+          In this time that I'd been work to LEO Learning, I'd got an opportunity to use a many of technologies and making some new one in my team.
+          I worked making middleware/integration system which ran between multiple system from Moodle to other system and vice-versa.
+          I made projects in multiple programming languages such as: Ruby, Node, JavaScript, TypeScript, PHP, Sass, Mustache, Java (MuleSoft), etc...
       - role: Senior Developer
         time: 2016 - 2017
         company: Intercase
         url: https://www.intercase.com.br
         logo: intercase.png
         details: |
-          Atuei como desenvolvedor sênior, desenvolvendo customizações como módulos de pagamento, carrinho, cadastros, etc...
-          Trabalhei com Magento 1 e Magento 2 usando PHP, desenvolvi também integrações usando MuleSoft em Java.
-          Foi a primeira vez que trabalhei com microserviços, docker, caches e montei arquiteturas de sistemas distribuidos usando estrutura de filas e outros serviços da AWS.
+          I was a senior developer, I'd make customizations like payment modules, cart, etc...
+          I worker with Magento 1 and Magento 2 using PHP, I made some integrations using MuleSoft in Java
+          It was the first time that I worked using microservices, docker, caches and I worked in core of asynchronous system using queue and another Amazon web services.
       - role: Middle Developer
         time: 2015 - 2016
         company: Epic Learning Brazil
         logo: epic.png
         details: |
-          Atuei como desenvolvedor full stack, desenvolvendo customizações e sistemas como frontend e como backend,
-          Trabalhei com o Moodle desenvolvendo sistemas de ensino a distância e treinamento empresarial.
-          Foi a primeira vez que trabalhei com metodologias ágeis como Scrum e Kanban.
-          Atuei desenvolvendo usando tecnologias como PHP, JavaScript e Sass
+          I was a full stack middle developer, I made customizations and other things to frontend and backend system.
+          I worked with Moodle developing online education system and business training system.
+          It was the first time that I worked using Agile metodologies such as: Scrum and Kanban.
+          I worked with these programming languages: PHP, JavaScript and Sass.
       - role: Junior Developer
         time: 2013 - 2014
         company: Radar77
         logo: radar77.png
         details: |
-          Startup com uma ideia de produto de buscadores de preço, empresa de pequeno porte.
-          Trabalhei desenvolvendo extensão para Google Chrome e Firefox usando XUL, XML, HTML e JavaScript.
-      - role: Estágio em desenvolvimento
+          Radar77 was a small startup that main goal was made a comparison shopping service between ecommerces.
+          I worked making a navigation extension to Google Chrome and Firefox using XUL, XML, HTML and JavaScript.
+      - role: Development internship
         time: 2012 - 2013
         company: Mágico das Ofertas
         url: https://www.facebook.com/magicodasofertas/
         logo: magico-das-ofertas.png
         details: |
-          O Mágico das Ofertas foi uma startup com um conceito de compra em grupo, 
-          que se intitulava uma nova forma de "Economia Inteligente". 
-          No sistema você encontrava produtos onde concorria a descontos reais de até 80% do preço total do produto.
-          Desenvolvi diversas partes do projeto que consistia na integração dos produtos com o Lomadee, integrações com gateway de pagamento, sistema de usuário, CMA para os administradores, etc...
-          Todo o sistema foi desenvolvido com o framework CodeIgniter.
+          Mágico das Ofertas was a small startup that main goal was made a new group shopping concept called "Economia Inteligente" (smart money spent).          
+          In this service you could find products which had biggest discount to max of 80% of product price.
+          Me and another developer made that system. This service has Lomadee integration, payment system integration, user panel, content manager administrator to managers, etc...
+          All codes of this service was made using CodeIgniter framework.
 projects:
     title: Projects
     intro: >
-      Lista de clientes na qual eu já trabalhei desenvolvendo algum projeto e atuando diretamente.
+      List of clients which has a project that I made.
     companies:
       - title: SENAI Cetiqt
         logo: senai-cetiqt.png
@@ -122,14 +119,14 @@ projects:
 publications:
     title: Publications
     intro: |
-      Lista de publicações na mídia na qual eu escrevi ou fui citado.
+      List of public articles that I've been wrote or I was quoted.
     papers:
-      - title: Como mais de 350 mil pessoas caíram na falha do Twitter
+      - title: How 350000+ people were got into Twitter security bug (Como mais de 350 mil pessoas caíram na falha do Twitter)
         link: "https://medium.com/@josephfelix/como-mais-de-350-mil-pessoas-ca%C3%ADram-na-falha-do-twitter-a4131d3bf531"
         authors: Joseph Felix
         date: "Jun 13, 2018"
 
-      - title: Adolescentes brasileiros corrigem bug do Twitter
+      - title: Brazilian teens fix a Twitter bug (Adolescentes brasileiros corrigem bug do Twitter)
         link: "https://olhardigital.com.br/noticia/adolescentes-brasileiros-corrigem-bug-do-twitter/14485"
         authors: Redação Olhar Digital
         date: "Out 25, 2010"
