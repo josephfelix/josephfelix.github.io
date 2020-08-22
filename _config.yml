@@ -7,8 +7,8 @@ languages: ["pt_br", "en"]
 
 sass:
   load_paths:
+    - assets/plugins
     - _sass
-    - node_modules
   style: compressed
 
 compress-site: yes
@@ -26,6 +26,7 @@ safe: false
 exclude:
   - .jekyll-cache/
   - CNAME
+  - assets/plugins
 
 plugins:
   - jekyll-regex-replace

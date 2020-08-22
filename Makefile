@@ -1,13 +1,12 @@
 DOCKERCOMPOSE 	= docker-compose
 XDGOPEN		= xdg-open
 DOCKER		= docker
-NPM 		?= $(shell which npm)
-YARN 		?= $(shell which yarn)
-PKG_MANAGER 	?= $(if $(YARN),$(YARN),$(NPM))
+GIT		= git
 
 all: down run
 install:
-	$(PKG_MANAGER) install
+	$(GIT) submodule init
+	$(GIT) submodule update
 build-jekyll:
 	$(DOCKER) run --rm -v $(pwd):/srv/jekyll jekyll/jekyll:latest jekyll build
 build: install build-jekyll
