@@ -25,7 +25,6 @@ safe: false
 
 exclude:
   - .jekyll-cache/
-  - CNAME
   - assets/plugins
 
 plugins:
