@@ -56,7 +56,7 @@
                     margin-bottom: 10px;
 
                     .logo {
-                        width: 10%;
+                        width: 70px;
 
                         a:after {
                             display: none;
@@ -69,8 +69,7 @@
                     }
 
                     .upper-row {
-                        width: 90%;
-                        padding-left: 10px;
+                        width: calc(100% - 70px);
 
                         .company {
                             color: $text-grey;
@@ -118,7 +117,6 @@
             @include media-breakpoint-down(md) {
                 position: static;
                 display: block;
-                margin-top: 5px;
             }
 
             @media print {
@@ -145,7 +143,6 @@
         }
 
         .projects-section {
-            
             @media print {
                 display: none;
             }
