@@ -12,7 +12,7 @@ install:
 	$(GIT) submodule update
 	$(PKG_MANAGER) install
 build-jekyll:
-	$(DOCKER) run --rm -v $(pwd):/srv/jekyll jekyll/jekyll:latest jekyll build
+	$(DOCKER) run --rm -v $(shell pwd):/srv/jekyll jekyll/jekyll:latest jekyll build
 build: install build-jekyll
 open:
 	$(XDGOPEN) http://127.0.0.1:4000
