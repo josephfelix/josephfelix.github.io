@@ -1,4 +1,5 @@
 @import "variables";
+@import "animations";
 
 .footer {
     padding-top: $footer-gutter;
@@ -12,6 +13,11 @@
 
         > .fa-heart {
             color: $footer-heart-color;
+            margin: 0 3px;
+
+            @if $footer-heart-pulse-animation {
+                animation: pulse 1s infinite;
+            }
         }
     }
 
