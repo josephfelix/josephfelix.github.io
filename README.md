@@ -1,4 +1,4 @@
-# Portfólio [josephfelix.dev](https://josephfelix.dev)
+# :rocket: Portfólio [josephfelix.dev](https://josephfelix.dev)
 Seja bem vindo ao repositório do meu portfólio, onde apresento meus projetos e escrevo sobre mim.
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![HitCount](http://hits.dwyl.com/josephfelix/josephfelix.github.io.svg)](http://hits.dwyl.com/josephfelix/josephfelix.github.io.svg) [![GitHub version](https://badge.fury.io/gh/josephfelix%2Fjosephfelix.github.io.svg)](https://badge.fury.io/gh/josephfelix%2Fjosephfelix.github.io) ![Gem Version](https://img.shields.io/gem/v/jekyll.svg) [![Powered by Jekyll](https://camo.githubusercontent.com/ccbbb10ab4fd9de0790a00d834ef090b3dcb7070/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f706f77657265645f62792d4a656b796c6c2d7265642e737667)](https://jekyllrb.com)
