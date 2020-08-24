@@ -41,6 +41,8 @@ Para executar este projeto no seu local, você precisa executar o comando abaixo
 make run
 ```
 
+> :bulb: Caso o browser não abra automaticamente a aplicação, acesse através da seguinte url: http://127.0.0.1:4000/
+
 ### Build sem executar
 Para buildar a pasta dos estáticos sem executar, você pode utilizar o comando abaixo
 
