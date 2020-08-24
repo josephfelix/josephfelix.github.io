@@ -118,6 +118,8 @@ projects:
         logo: unisuam.png
       - title: Rede Nacional de Ensino e Pesquisa
         logo: rnp.png
+      - title: Enauta
+        logo: enauta.png
 
 publications:
     title: Publicações

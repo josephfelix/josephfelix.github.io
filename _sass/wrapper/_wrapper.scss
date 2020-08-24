@@ -43,11 +43,16 @@
 
         .section {
             margin-bottom: 60px;
+
+            @media print {
+                margin-bottom: 10px;
+            }
         }
 
         .experiences-section {
             .item {
                 margin-bottom: 30px;
+                page-break-inside: avoid;
 
                 .meta {
                     display: flex;
@@ -75,10 +80,6 @@
                             color: $text-grey;
                         }
                     }
-                }
-
-                &:nth-of-type(3) {
-                    page-break-after: always;
                 }
             }
         }
@@ -158,16 +159,6 @@
                 .item {
                     margin-bottom: 15px;
                     text-align: center;
-
-                    img {
-                        width: 135px;
-
-                        @include prefix(
-                            (
-                                filter: opacity(0.4) grayscale(1),
-                            )
-                        );
-                    }
                 }
             }
         }
