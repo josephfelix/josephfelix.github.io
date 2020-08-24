@@ -12,7 +12,7 @@
     "url": "git+https://github.com/josephfelix/josephfelix.github.io.git"
   },
   "author": "Joseph F. <contato@josephfelix.dev>",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/josephfelix/josephfelix.github.io/issues"
   },
